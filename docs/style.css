@@ -1,0 +1,39 @@
+head {
+    font-size: 200%;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 150%;
+}
+h3{
+    font-size: 150%;
+}
+
+
+body {
+    background-color: #008080;
+}
+
+
+img {
+    width: 40%;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    color: #F5F5F5;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+
+
+
+p {
+    color: #F5F5F5;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+
