@@ -5,15 +5,15 @@ h1{
     font-size: 150%;
 }
 h2{
-    font-size: 150%;
+    font-size: 125%;
 }
 h3{
-    font-size: 150%;
+    font-size: 125%;
 }
 
 
 body {
-    background-color: #008080;
+    background-color: #24E293;
 }
 
 
@@ -24,7 +24,7 @@ img {
 section {
     width: 80%;
     margin: auto;
-    color: #F5F5F5;
+    color: white;
     font-family: "Times New Roman", Times, serif;
     font-size: 100%;
 }
@@ -32,8 +32,16 @@ section {
 
 
 p {
-    color: #F5F5F5;
+    color: white;
     font-family: "Times New Roman", Times, serif;
-    font-size: 100%;
+    font-size: 100%;}
+    
+.button {
+    color: #35C7CB;
+    border:2px;
+    border-color: #4CACDB;
+    width: 10%;
+    display: inline;
+    border-radius:20px;
 }
 
