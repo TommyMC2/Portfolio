@@ -132,7 +132,11 @@ p{
    padding: 10px;
    line-height:150%;
 }
-
+.essay{
+    text-align: center;
+    width: 50%;
+    font-size: 1.5vw;
+}
 
 /*<div class="zoom"> put on photos individually to work*/
 /*  
