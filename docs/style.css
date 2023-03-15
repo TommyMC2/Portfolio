@@ -19,9 +19,10 @@ h3{ font-size: 125%;
 
 
 body {
-    background-color: #24E293;
+    background-color: #8FBC8F;/* DarkSeaGreen */
     vertical-align: middle;
     text-align: center;
+    
 }
 
 
@@ -36,7 +37,7 @@ section {
     margin: auto;
     color: white;
     font-family: "Times New Roman", Times, serif;
-    font-size: 100%;}
+    font-size: 2vw;}
 
 p{
     color: white;
@@ -54,7 +55,9 @@ p{
     display: inline;
     border-radius:20px;
 }
-
+.caption{
+    font-size:1vw;
+}
 .center {
     text-align: center;
     list-style-position: inside;
@@ -93,9 +96,54 @@ p{
     max-width: 100%;
   }
 }
-/*   .row img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
+
+
+.rcenter{
+    text-align: left;
+    position: absolute;
+    font-size:1.5vw;
+    
 }
-*/
+
+
+.cwork{
+    
+}
+.contact{
+    position:absolute;
+    text-align: left;
+    background-color: #3CB371;
+    width: 25%;
+    height: 225px;
+    left: 0px;
+    top: 240px;
+    font-size: 1.5vw;
+    padding: 10px;
+    line-height: 150%;    
+}
+.edu{
+   position:absolute;
+   text-align: left;  
+   background-color: #66CDAA;
+   width: 25%;
+   height: 70%;
+   left: 0px;
+   font-size: 1.5vw;
+   padding: 10px;
+   line-height:150%;
+}
+
+
+/*<div class="zoom"> put on photos individually to work*/
+/*  
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.zoom:hover {
+    transform: scale(1);
+}*/
+/* transform 150% zoom */
