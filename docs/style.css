@@ -1,3 +1,75 @@
+nav {
+  align-items: center;
+  background-color: #7FFFD4;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul ul li {
+  width: 200px;
+  background-color: #333;
+}
+
+nav ul ul li a {
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul ul li:hover {
+  background-color: #666;
+}
+
+nav ul ul ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+
 head{font-size: 200%;}
 
 h1{
@@ -138,16 +210,14 @@ p{
     font-size: 1.5vw;
 }
 
-/*<div class="zoom"> put on photos individually to work*/
-/*  
 .zoom {
-    padding: 50px;
-    transition: transform .2s;
-    width: 200px;
-    height: 200px;
-    margin: auto;
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
 }
+
 .zoom:hover {
-    transform: scale(1);
-}*/
-/* transform 150% zoom */
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

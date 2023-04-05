@@ -1,0 +1,71 @@
+/* Set default styles for the entire page */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Style the page sections */
+section {
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+section:first-child {
+  margin-top: 0;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+/* Style the headings */
+h1, h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Style the paragraphs */
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Style the images */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.video-container iframe {
+    float: left;
+    margin-right: 20px;
+}
+
